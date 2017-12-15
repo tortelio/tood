@@ -5,12 +5,20 @@
   {mod, { tood_app, []}},
   {applications,
    [kernel,
-    stdlib
+    stdlib,
+    cowboy,
+    mnesia,
+    erlpass,
+    bcrypt,
+    crypto,
+    eics,
+    jiffy,
+    qdate
    ]},
   {env,[]},
   {modules, []},
 
   {maintainers, []},
-  {licenses, ["Apache 2.0"]},
+  {licenses, ["MIT"]},
   {links, []}
  ]}.
